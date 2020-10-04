@@ -26,6 +26,10 @@ ITEM_PIPELINES = {
    'Arknights.pipelines.Pipiline_ToCSV' : 300,   #优先度
 }
 
+'''ITEM_PIPELINES = {
+   'Arknights.pipelines.ArkSpiderPipeline' : 300,   #存入mysql
+}'''
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Arknights (+http://www.yourdomain.com)'
 
